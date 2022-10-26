@@ -1,0 +1,170 @@
+$color1-Cyan: hsl(180, 66%, 49%);
+$color2-Violet: hsl(257, 27%, 26%);
+$color3-Red: hsl(0, 87%, 67%);
+$color4-Gray: hsl(0, 0%, 75%);
+$color5-GrayishViolet: hsl(257, 7%, 63%);
+$color-6VeryDarkBlue: hsl(255, 11%, 22%);
+$color-7VeryDarkViolet: hsl(260, 8%, 14%);
+$color-8BackgroundFeatures: hsl(0, 0%, 92%);
+
+.btn-rnd {
+  background-color: $color1-Cyan;
+  color: white;
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+  border: none;
+
+  &:hover {
+    opacity: 0.5;
+  }
+
+  &-s {
+    @extend .btn-rnd;
+    font-size: 0.6;
+    padding: 0.1rem 1rem;
+  }
+}
+
+.btn-sqr {
+  @extend .btn-rnd;
+  border-radius: 0.5rem;
+
+  &:hover {
+    opacity: 0.5;
+  }
+
+  &-s {
+    @extend .btn-sqr;
+    font-size: 0.6;
+    padding: 0.1rem 1rem;
+  }
+}
+
+.btn-lg {
+  border: none;
+  background-color: white;
+  color: $color5-GrayishViolet;
+}
+
+.menu {
+  li {
+    font-size: 0.9rem;
+    font-weight: 700;
+    list-style: none;
+    display: inline;
+    margin-right: 1.5rem;
+    a {
+      color: $color5-GrayishViolet;
+      text-decoration: none;
+
+      &:hover {
+        color: $color-7VeryDarkViolet;
+      }
+    }
+  }
+}
+
+.home-title {
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+
+.home-text {
+  padding-right: 6rem;
+}
+
+.features-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 300;
+  h1 {
+    color: $color-7VeryDarkViolet;
+  }
+  p {
+    color: $color4-Gray;
+  }
+}
+
+.card {
+  width: 320px;
+  height: 240px;
+  padding: 3rem;
+  background-color: white;
+  display: flex;
+  .title {
+    font-weight: 700;
+    color: $color-7VeryDarkViolet;
+  }
+  .text {
+    color: $color4-Gray;
+  }
+}
+
+.cards {
+  .icons {
+    background-color: $color2-Violet;
+    padding: 1.5rem;
+    border-radius: 50%;
+  }
+}
+
+.brand-recognition {
+  position: relative;
+  top: 0px;
+  left: -15px;
+}
+
+.detailed-records {
+  position: relative;
+  top: 60px;
+  left: 0px;
+}
+
+.fully-customizable {
+  position: relative;
+  top: 90px;
+  left: 15px;
+}
+
+.title-button {
+  padding: 2rem;
+  p {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+}
+
+.lists {
+  display: flex;
+
+  .botom-section {
+    color: $color4-Gray;
+    font-weight: 700;
+    padding-bottom: 1rem;
+  }
+  li {
+    list-style: none;
+    color: $color5-GrayishViolet;
+    padding-bottom: 0.5rem;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .ResourcesList {
+    padding: 0rem 3rem;
+  }
+}
+
+.icons {
+  i {
+    padding: 0.5rem;
+    &:hover {
+      color: $color1-Cyan;
+      cursor: pointer;
+    }
+  }
+}

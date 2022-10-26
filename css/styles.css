@@ -1,0 +1,511 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
+.btn-rnd, .btn-sqr, .btn-sqr-s, .btn-rnd-s {
+  background-color: hsl(180deg, 66%, 49%);
+  color: white;
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+  border: none;
+}
+.btn-rnd:hover, .btn-sqr:hover, .btn-sqr-s:hover, .btn-rnd-s:hover {
+  opacity: 0.5;
+}
+.btn-rnd-s {
+  font-size: 0.6;
+  padding: 0.1rem 1rem;
+}
+
+.btn-sqr, .btn-sqr-s {
+  border-radius: 0.5rem;
+}
+.btn-sqr:hover, .btn-sqr-s:hover {
+  opacity: 0.5;
+}
+.btn-sqr-s {
+  font-size: 0.6;
+  padding: 0.1rem 1rem;
+}
+
+.btn-lg {
+  border: none;
+  background-color: white;
+  color: hsl(257deg, 7%, 63%);
+}
+
+.menu li {
+  font-size: 0.9rem;
+  font-weight: 700;
+  list-style: none;
+  display: inline;
+  margin-right: 1.5rem;
+}
+.menu li a {
+  color: hsl(257deg, 7%, 63%);
+  text-decoration: none;
+}
+.menu li a:hover {
+  color: hsl(260deg, 8%, 14%);
+}
+
+.home-title {
+  font-weight: 700;
+  font-size: 3.5rem;
+}
+
+.home-text {
+  padding-right: 6rem;
+}
+
+.features-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 300;
+}
+.features-text h1 {
+  color: hsl(260deg, 8%, 14%);
+}
+.features-text p {
+  color: hsl(0deg, 0%, 75%);
+}
+
+.card {
+  width: 320px;
+  height: 240px;
+  padding: 3rem;
+  background-color: white;
+  display: flex;
+}
+.card .title {
+  font-weight: 700;
+  color: hsl(260deg, 8%, 14%);
+}
+.card .text {
+  color: hsl(0deg, 0%, 75%);
+}
+
+.cards .icons {
+  background-color: hsl(257deg, 27%, 26%);
+  padding: 1.5rem;
+  border-radius: 50%;
+}
+
+.brand-recognition {
+  position: relative;
+  top: 0px;
+  left: -15px;
+}
+
+.detailed-records {
+  position: relative;
+  top: 60px;
+  left: 0px;
+}
+
+.fully-customizable {
+  position: relative;
+  top: 90px;
+  left: 15px;
+}
+
+.title-button {
+  padding: 2rem;
+}
+.title-button p {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.lists {
+  display: flex;
+}
+.lists .botom-section {
+  color: hsl(0deg, 0%, 75%);
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+.lists li {
+  list-style: none;
+  color: hsl(257deg, 7%, 63%);
+  padding-bottom: 0.5rem;
+}
+.lists li:hover {
+  cursor: pointer;
+}
+.lists .ResourcesList {
+  padding: 0rem 3rem;
+}
+
+.icons i {
+  padding: 0.5rem;
+}
+.icons i:hover {
+  color: hsl(180deg, 66%, 49%);
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 4rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.nav .menu-mobile {
+  display: none;
+}
+.nav .menu {
+  display: flex;
+}
+.nav .menu-icon {
+  display: none;
+}
+
+.sec-home {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 2rem;
+  margin-bottom: 2.5rem;
+}
+.sec-home .home {
+  flex: 1;
+}
+.sec-home .home .home-title {
+  color: hsl(260deg, 8%, 14%);
+  font-size: 5.5rem;
+}
+.sec-home .home .home-text {
+  color: hsl(257deg, 7%, 63%);
+  font-size: 1.6rem;
+}
+.sec-home .image-working {
+  max-width: 50vw;
+}
+.sec-home .image-working .menu-mobile {
+  display: none;
+}
+
+.sec-link {
+  display: grid;
+  padding: 2.5rem 3rem;
+  background-color: hsl(257deg, 27%, 26%);
+  background-image: url(/images/bg-boost-desktop.svg);
+  border-radius: none;
+}
+.sec-link span {
+  display: none;
+}
+.sec-link:hover .col-10 input {
+  border-color: hsl(0deg, 87%, 67%);
+}
+.sec-link:hover .col-10 ::placeholder {
+  color: hsl(0deg, 87%, 67%);
+}
+.sec-link:hover span {
+  display: block;
+  color: hsl(0deg, 87%, 67%);
+}
+
+.sec-saved-links {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  background-color: hsl(0deg, 0%, 92%);
+  border-radius: 1rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.sec-saved-links .link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  padding: 1rem;
+  margin: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+.sec-saved-links .link .link-inicial {
+  display: flex;
+  align-items: center;
+  color: hsl(260deg, 8%, 14%);
+}
+.sec-saved-links .link .shortenedLink {
+  color: hsl(180deg, 66%, 49%);
+}
+.sec-saved-links .link button {
+  background-color: hsl(180deg, 66%, 49%);
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 2rem;
+  margin-left: 1rem;
+}
+.sec-saved-links .link button:hover button {
+  opacity: 0.8;
+}
+
+.sec-features {
+  background-color: hsl(0deg, 0%, 92%);
+  padding: 8rem;
+}
+.sec-features .features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.sec-features .features .cards {
+  display: flex;
+}
+.sec-features .features .cards .card {
+  display: flex;
+}
+
+.sec-BYLT {
+  background-color: hsl(257deg, 27%, 26%);
+  background-image: url(/images/bg-boost-desktop.svg);
+  display: flex;
+  justify-content: center;
+}
+.sec-BYLT .btn-rnd {
+  display: flex;
+}
+
+.footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  background-color: hsl(260deg, 8%, 14%);
+  color: hsl(257deg, 7%, 63%);
+  padding: 2rem;
+}
+
+@media (max-width: 375px) {
+  body {
+    width: 375px;
+  }
+  .nav {
+    display: flex;
+    margin-bottom: 0rem;
+  }
+  .nav .ul {
+    display: none;
+  }
+  .nav .login {
+    display: none;
+  }
+  .nav .menu-icon {
+    display: flex;
+    font-size: 2.5rem;
+    color: hsl(257deg, 7%, 63%);
+  }
+  .nav .menu-mobile {
+    display: flex;
+    flex-direction: column;
+    display: none;
+  }
+  .nav .menu-mobile .login-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+  .sec-home {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 0px;
+  }
+  .sec-home .home {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 375px;
+  }
+  .sec-home .home .home-title {
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    display: flex;
+    width: 100%;
+    padding: 1rem 2rem 0rem 2rem;
+  }
+  .sec-home .home .home-text {
+    color: blue;
+    justify-content: center;
+    font-size: 1.4rem;
+    padding: 1.5rem;
+  }
+  .sec-home .home .btn-rnd {
+    font-size: 1.2rem;
+    font-weight: 700;
+    max-width: 50%;
+    position: relative;
+    left: 95px;
+    padding: 2rem 2rem 1.5rem 1.5rem;
+  }
+  .sec-home .image-working {
+    max-width: 100vw;
+    display: flex;
+  }
+  .sec-home .image-working .img-fluid {
+    display: flex;
+  }
+  .sec-home .image-working .menu-mobile {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    padding: 2rem 7.5rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    border-radius: 1rem;
+    font-weight: 700;
+    display: none;
+  }
+  .sec-home .image-working .menu-mobile i {
+    font-size: 2rem;
+    position: absolute;
+    left: 25px;
+    top: 85px;
+    color: white;
+  }
+  .sec-home .image-working .menu-mobile .list-menu-mobile {
+    display: flex;
+    position: relative;
+    left: -10px;
+  }
+  .sec-home .image-working .menu-mobile .list-menu-mobile li {
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 1.8rem;
+  }
+  .sec-home .image-working .menu-mobile .list-menu-mobile li a {
+    color: white;
+    text-decoration: none;
+  }
+  .sec-home .image-working .menu-mobile .login-mobile {
+    display: flex;
+    flex-direction: column;
+  }
+  .sec-home .image-working .menu-mobile .login-mobile .btn-lg {
+    background-color: grey;
+    color: white;
+  }
+  .sec-home .image-working .menu-mobile .login-mobile .btn-rnd-s {
+    margin-top: 1rem;
+  }
+  .sec-link {
+    padding: 2rem 2.5rem;
+    border-radius: 1rem;
+  }
+  .sec-link .inputlink {
+    display: flex;
+    flex-direction: column;
+  }
+  .sec-link .inputlink .form-control {
+    position: relative;
+    left: -25px;
+    width: 275px;
+    height: 55px;
+  }
+  .sec-link .inputlink .btn-sqr {
+    margin-top: 2rem;
+    font-weight: 700;
+    width: 275px;
+    height: 55px;
+    position: relative;
+    left: -125px;
+  }
+  .sec-saved-links .link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sec-saved-links .link div {
+    display: flex;
+    flex-direction: column;
+  }
+  .sec-saved-links .link div .shortenedLink {
+    display: flex;
+    justify-content: center;
+  }
+  .sec-saved-links .link div .copy-btn {
+    width: 170px;
+  }
+  .sec-features .features {
+    display: flex;
+    flex-direction: column;
+  }
+  .sec-features .features .features-text {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    position: relative;
+    left: -100px;
+  }
+  .sec-features .features .cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .sec-features .features .cards .brand-recognition {
+    position: relative;
+    left: -105px;
+  }
+  .sec-features .features .cards .detailed-records {
+    position: relative;
+    left: -105px;
+  }
+  .sec-features .features .cards .fully-customizable {
+    position: relative;
+    left: -105px;
+  }
+  .sec-features .icons {
+    position: relative;
+    left: 110px;
+    margin-bottom: 1rem;
+  }
+  .sec-BYLT {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sec-BYLT .title-button {
+    display: flex;
+    flex-direction: column;
+  }
+  .sec-BYLT .title-button button {
+    max-width: 160px;
+    position: relative;
+    left: 50px;
+    font-weight: 700;
+    justify-content: center;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer .lists {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  .footer .lists .ResourcesList {
+    position: relative;
+    left: -15px;
+  }
+  .footer .lists .CompanyList {
+    position: relative;
+    left: -15px;
+  }
+  .footer .icons {
+    margin-top: 1rem;
+    font-size: 2rem;
+  }
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/*# sourceMappingURL=styles.css.map */
